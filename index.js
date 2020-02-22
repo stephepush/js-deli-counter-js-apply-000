@@ -22,6 +22,6 @@ function currentLine(arr){
 	var stringedArr = humanArr.join(", ")
 	return `The line is currently: ${stringedArr}`
   } else {
-	  return "The line is currently empty"
+	  return "The line is currently empty."
   }
 }
