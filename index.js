@@ -11,6 +11,9 @@ function nowServing(arr){
   }
 }
 
-function currentLine(){
-
+function currentLine(arr){
+  let humanArr
+  arr.forEach(index, person){
+    humanArr.push(`${index}. ${person}`)
+  }
 }
